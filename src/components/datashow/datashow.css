@@ -1,5 +1,61 @@
 .datashow {
     color: yellow;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-areas:
+    'cidade cidade'
+    'temperatura icone'
+    'descricao descricao'
+    'sensacao sensacao'
+    'min max'
+    'pressao umidade'
+    'vento vento'
+    'nascer por'
+}
+
+.cidade {
+    grid-area: cidade;
+}
+
+.temperatura {
+    grid-area: temperatura;
+}
+
+.icone {
+    grid-area: icone;
+}
+
+.descricao {
+    grid-area: descricao;
+}
+
+.sensacao {
+    grid-area: sensacao;
+}
+
+.min {
+    grid-area: min;
+}
+
+.max {
+    grid-area: max;
+}
+
+.pressao {
+    grid-area: pressao;
+}
+
+.umidade {
+    grid-area: umidade;
+}
+
+.vento {
+    grid-area: vento;
+}
+
+.nascer {
+    grid-area: nascer;
+}
+
+.por {
+    grid-area: por;
 }
