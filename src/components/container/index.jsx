@@ -5,7 +5,6 @@ import Datashow from "../datashow";
 function Container(){
     return(
         <div className='container'>
-            Container
             <Datashow />
         </div>
     )

@@ -16,3 +16,7 @@ code {
 :root {
   --primaryColor: blue;
 }
+
+h1 {
+  margin: 0;
+}

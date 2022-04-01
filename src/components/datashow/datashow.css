@@ -18,10 +18,14 @@
 
 .temperatura {
     grid-area: temperatura;
+    text-align: right;
+    /*margin-right: 32px;*/
 }
 
 .icone {
     grid-area: icone;
+    text-align: left;
+    /*margin-left: 32px;*/
 }
 
 .descricao {
