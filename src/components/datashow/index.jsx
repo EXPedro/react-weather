@@ -1,10 +1,12 @@
 import React from "react";
 import './datashow.css';
 
+import { cidade } from '../../providers' 
+
 function Datashow(){
     return(
         <div className='datashow'>
-            <span className='cidade'>Curitiba</span>
+            <span className='cidade'>{ cidade }</span>
             <h1 className='temperatura'>20 °C</h1>
             <span className='icone'>icon</span>
             <span className='descricao'>Descrição</span>
