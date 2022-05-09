@@ -14,7 +14,7 @@ const options = {
   },
   headers: {
     'X-RapidAPI-Host': 'community-open-weather-map.p.rapidapi.com',
-    'X-RapidAPI-Key': '55be376e9amshbcd56195acbb521p1fb5cajsn8f776d7b566b'
+    'X-RapidAPI-Key': ''
   }
 };
 
