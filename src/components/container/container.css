@@ -2,7 +2,8 @@
     width: 100vw;
     height: 100vh;
 
-    background-image: url("/public/assets/images/backimage.jpg");
+    /*background-image: url("/public/assets/images/backimage.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+    background-color: #23005B;
 }

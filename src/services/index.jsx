@@ -18,13 +18,12 @@ const options = {
   }
 };
 
-const resposta =  
+const resposta = 
+    axios.request(options).then(function (response) {
+      console.log(response.data);
+      return response.data;
+    }).catch(function (error) {
+      console.error(error);
+    });
 
-axios.request(options).then(function (response) {
-  console.log(response.data);
-  return response.data;
-}).catch(function (error) {
-  console.error(error);
-});
-
-export {resposta};
+export {options, resposta};

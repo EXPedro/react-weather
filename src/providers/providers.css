@@ -1,0 +1,51 @@
+.cidade {
+    grid-area: cidade;
+}
+
+.temperatura {
+    grid-area: temperatura;
+    text-align: right;
+    /*margin-right: 32px;*/
+}
+
+.icone {
+    grid-area: icone;
+    text-align: left;
+    /*margin-left: 32px;*/
+}
+
+.descricao {
+    grid-area: descricao;
+}
+
+.sensacao {
+    grid-area: sensacao;
+}
+
+.min {
+    grid-area: min;
+}
+
+.max {
+    grid-area: max;
+}
+
+.pressao {
+    grid-area: pressao;
+}
+
+.umidade {
+    grid-area: umidade;
+}
+
+.vento {
+    grid-area: vento;
+}
+
+.nascer {
+    grid-area: nascer;
+}
+
+.por {
+    grid-area: por;
+}
